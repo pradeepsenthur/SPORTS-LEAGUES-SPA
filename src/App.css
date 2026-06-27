@@ -111,14 +111,15 @@
   flex: 1;
   min-height: 0;
   overflow-y: auto;
-  padding-bottom: 8px;
+  padding: 8px;
 }
 
 .league-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 12px;
-  padding: 2px;
+  padding: 4px;
+  box-sizing: border-box;
 }
 
 .league-card {
