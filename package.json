@@ -1,0 +1,33 @@
+{
+  "name": "sports-leagues-spa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint && prettier --check .",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "format": "prettier --write .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.7",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "oxlint": "^1.69.0",
+    "prettier": "^3.8.5",
+    "ts-jest": "^29.4.11",
+    "typescript": "^5.9.2",
+    "vite": "^8.1.0"
+  }
+}
