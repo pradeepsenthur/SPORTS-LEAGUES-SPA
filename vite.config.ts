@@ -4,5 +4,6 @@ import babel from "@rolldown/plugin-babel";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/SPORTS-LEAGUES-SPA/",
   plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
 });

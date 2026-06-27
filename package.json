@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "oxlint && prettier --check .",
     "test": "jest --runInBand",
     "test:watch": "jest --watch",
@@ -26,6 +28,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.2",
     "babel-plugin-react-compiler": "^1.0.0",
+    "gh-pages": "^6.3.0",
     "jest": "^30.4.2",
     "jest-environment-jsdom": "^30.4.1",
     "oxlint": "^1.69.0",
